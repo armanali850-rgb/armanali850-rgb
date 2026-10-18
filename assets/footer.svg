@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 170" width="1200" height="170" role="img" aria-label="Thanks for visiting">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070B1A"/>
+      <stop offset="0.55" stop-color="#0E1533"/>
+      <stop offset="1" stop-color="#1A0F33"/>
+    </linearGradient>
+    <linearGradient id="pulse" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#F472B6"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#67E8F9"/>
+      <stop offset="0.5" stop-color="#C4B5FD"/>
+      <stop offset="1" stop-color="#F9A8D4"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#22D3EE" stroke-opacity="0.06"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="170" rx="20"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', Consolas, Menlo, 'Courier New', monospace; }
+    .trace { stroke-dasharray: 260 1500; animation: run 3.6s linear infinite; }
+    @keyframes run { from { stroke-dashoffset: 1760; } to { stroke-dashoffset: 0; } }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="170" fill="url(#bg)"/>
+    <rect width="1200" height="170" fill="url(#grid)"/>
+
+    <!-- heartbeat monitor line -->
+    <path id="ecg" d="M0 62h60l10-8 10 8h12l6 18 8-60 8 52 6-10h12l14-12 14 12h20h60l10-8 10 8h12l6 18 8-60 8 52 6-10h12l14-12 14 12h20h60l10-8 10 8h12l6 18 8-60 8 52 6-10h12l14-12 14 12h20h60l10-8 10 8h12l6 18 8-60 8 52 6-10h12l14-12 14 12h20h60l10-8 10 8h12l6 18 8-60 8 52 6-10h12l14-12 14 12h20h60l10-8 10 8h12l6 18 8-60 8 52 6-10h12l14-12 14 12h20h60l10-8 10 8h12l6 18 8-60 8 52 6-10h12l14-12 14 12h20" fill="none" stroke="#22D3EE" stroke-opacity="0.16" stroke-width="2" stroke-linejoin="round"/>
+    <path class="trace" d="M0 62h60l10-8 10 8h12l6 18 8-60 8 52 6-10h12l14-12 14 12h20h60l10-8 10 8h12l6 18 8-60 8 52 6-10h12l14-12 14 12h20h60l10-8 10 8h12l6 18 8-60 8 52 6-10h12l14-12 14 12h20h60l10-8 10 8h12l6 18 8-60 8 52 6-10h12l14-12 14 12h20h60l10-8 10 8h12l6 18 8-60 8 52 6-10h12l14-12 14 12h20h60l10-8 10 8h12l6 18 8-60 8 52 6-10h12l14-12 14 12h20h60l10-8 10 8h12l6 18 8-60 8 52 6-10h12l14-12 14 12h20" fill="none" stroke="url(#pulse)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <text x="600" y="122" text-anchor="middle" class="sans" font-size="26" font-weight="800" fill="url(#txt)">Thanks for visiting — let’s build something that matters</text>
+    <text x="600" y="150" text-anchor="middle" class="mono" font-size="13" letter-spacing="3" fill="#64748B">ARMANALI850-RGB · AI · WEB · ANDROID</text>
+  </g>
+</svg>
