@@ -29,8 +29,6 @@
 
 <br>
 
-<img align="right" src="assets/dev-desk.svg" width="440" alt="Animated cyberpunk illustration of a developer in a gaming chair typing code at a neon-lit desk at night" />
-
 I'm a **Software Engineer** who loves turning AI research into things people can actually use — from deep-learning models that read **medical images** and *explain* their predictions, to **LLMs** I fine-tune and run locally, to **multi-agent systems** that reason together.
 
 I don't stop at the notebook: I wrap models in **FastAPI** services, build the **Laravel / React** dashboards around them, and ship **Kotlin Android** apps — so an idea goes all the way from a training run to a real product.
@@ -44,8 +42,6 @@ I don't stop at the notebook: I wrap models in **FastAPI** services, build the *
 - 📱 Building **native Android apps** with Kotlin
 - 👯 Happy to **collaborate on AI & open-source** projects
 - 📫 Reach me at **[armanali850@gmail.com](mailto:armanali850@gmail.com)**
-
-<br clear="right" />
 
 <a name="about"></a>
 <img src="assets/sec-about.svg" width="100%" alt="About Me" />
